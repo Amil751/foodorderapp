@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid coral;
+}
+.items {
+  width: 30%;
+}
+.button {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px 0px 50px 0px;
+}
+.button button {
+  width: 35px;
+  margin-right: 15px;
+  background-color: white;
+  color: coral;
+  border-radius: 5px;
+  border-color: rgb(247, 238, 239);
+  font-weight: 800;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(100, 14, 14);
+  font-style: italic;
+}
+
+.button button:hover,
+.button button:active {
+  background-color: #92320c;
+}
